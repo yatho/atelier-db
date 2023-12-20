@@ -1,2 +1,26 @@
 {
+    "recipes": [
+        {
+            "id": 1,
+            "name": "Recette v1",
+            "version": "v1",
+            "intructions": ["Mélanger la farine"],
+            "ingredients": ["100g Farine"],
+            "type": "Starter"
+        },
+        {
+            "id": 2,
+            "name": "Recette v2",
+            "version": "v2",
+            "ingredients": [
+                {
+                    "amount": 100,
+                    "unit": "g",
+                    "name": "Farine"
+                }
+            ],
+            "howTo": ["Mélanger la farine"],
+            "type": "Starter"
+        }
+    ]
 }
