@@ -29,11 +29,11 @@
             "name": "Blueberry Pancakes",
             "version": "v2",
             "ingredients": [
-              { "amount": 200, "unit": "g", "name": "Blueberries" },
-              { "amount": 1, "unit": "ml", "name": "Vanilla extract" },
-              { "amount": 150, "unit": "g", "name": "Flour" }
+              { "quantity": 200, "unit": "g", "name": "Blueberries" },
+              { "quantity": 1, "unit": "ml", "name": "Vanilla extract" },
+              { "quantity": 150, "unit": "g", "name": "Flour" }
             ],
-            "howTo": ["Mix ingredients in a bowl", "Cook on a griddle", "Serve with maple syrup"],
+            "instructions": ["Mix ingredients in a bowl", "Cook on a griddle", "Serve with maple syrup"],
             "type": "Dessert"
           },
           {
@@ -41,11 +41,11 @@
             "name": "Chicken Alfredo Pasta",
             "version": "v2",
             "ingredients": [
-              { "amount": 250, "unit": "g", "name": "Chicken breast" },
-              { "amount": 200, "unit": "g", "name": "Fettuccine pasta" },
-              { "amount": 2, "unit": "ml", "name": "Olive oil" }
+              { "quantity": 250, "unit": "g", "name": "Chicken breast" },
+              { "quantity": 200, "unit": "g", "name": "Fettuccine pasta" },
+              { "quantity": 2, "unit": "ml", "name": "Olive oil" }
             ],
-            "howTo": ["Cook pasta", "Sauté chicken", "Mix with Alfredo sauce", "Serve hot"],
+            "instructions": ["Cook pasta", "Sauté chicken", "Mix with Alfredo sauce", "Serve hot"],
             "type": "Main course"
           },
           {
@@ -53,11 +53,11 @@
             "name": "Avocado Toast",
             "version": "v2",
             "ingredients": [
-              { "amount": 2, "unit": "unit",  "name": "Avocado" },
-              { "amount": 4, "unit": "unit", "name": "Slices of whole-grain bread" },
-              { "amount": 1, "unit": "ml", "name": "Lemon juice" }
+              { "quantity": 2, "unit": "unit",  "name": "Avocado" },
+              { "quantity": 4, "unit": "unit", "name": "Slices of whole-grain bread" },
+              { "quantity": 1, "unit": "ml", "name": "Lemon juice" }
             ],
-            "howTo": ["Mash avocado", "Spread on toasted bread", "Drizzle with lemon juice"],
+            "instructions": ["Mash avocado", "Spread on toasted bread", "Drizzle with lemon juice"],
             "type": "Starter"
           }
     ]
