@@ -2,25 +2,63 @@
     "recipes": [
         {
             "id": 1,
-            "name": "Recette v1",
+            "name": "Chocolate Cake",
             "version": "v1",
-            "intructions": ["Mélanger la farine"],
-            "ingredients": ["100g Farine"],
-            "type": "Starter"
-        },
-        {
+            "instructions": ["Preheat the oven", "Mix ingredients", "Bake for 30 minutes"],
+            "ingredients": ["Chocolate", "Flour", "Sugar", "Eggs"],
+            "type": "Dessert"
+          },
+          {
             "id": 2,
-            "name": "Recette v2",
+            "name": "Spaghetti Bolognese",
+            "version": "v1",
+            "instructions": ["Boil water", "Cook pasta", "Prepare sauce", "Combine and serve"],
+            "ingredients": ["Pasta", "Tomato sauce", "Ground beef", "Onion"],
+            "type": "MainCourse"
+          },
+          {
+            "id": 3,
+            "name": "Caprese Salad",
+            "version": "v1",
+            "instructions": ["Slice tomatoes", "Layer with mozzarella", "Drizzle with balsamic"],
+            "ingredients": ["Tomatoes", "Mozzarella", "Basil", "Balsamic"],
+            "type": "Starter"
+          },
+          {
+            "id": 51,
+            "name": "Blueberry Pancakes",
             "version": "v2",
             "ingredients": [
-                {
-                    "amount": 100,
-                    "unit": "g",
-                    "name": "Farine"
-                }
+              { "amount": 200, "unit": "Gramm", "name": "Blueberries" },
+              { "amount": 1, "unit": "Milliliter", "name": "Vanilla extract" },
+              { "amount": 150, "unit": "Gramm", "name": "Flour" }
             ],
-            "howTo": ["Mélanger la farine"],
+            "howTo": ["Mix ingredients in a bowl", "Cook on a griddle", "Serve with maple syrup"],
+            "type": "Dessert"
+          },
+          {
+            "id": 52,
+            "name": "Chicken Alfredo Pasta",
+            "version": "v2",
+            "ingredients": [
+              { "amount": 250, "unit": "Gramm", "name": "Chicken breast" },
+              { "amount": 200, "unit": "Gramm", "name": "Fettuccine pasta" },
+              { "amount": 2, "unit": "Milliliter", "name": "Olive oil" }
+            ],
+            "howTo": ["Cook pasta", "Sauté chicken", "Mix with Alfredo sauce", "Serve hot"],
+            "type": "MainCourse"
+          },
+          {
+            "id": 53,
+            "name": "Avocado Toast",
+            "version": "v2",
+            "ingredients": [
+              { "amount": 2, "name": "Avocado" },
+              { "amount": 4, "name": "Slices of whole-grain bread" },
+              { "amount": 1, "unit": "Milliliter", "name": "Lemon juice" }
+            ],
+            "howTo": ["Mash avocado", "Spread on toasted bread", "Drizzle with lemon juice"],
             "type": "Starter"
-        }
+          }
     ]
 }
