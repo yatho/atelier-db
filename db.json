@@ -3,6 +3,7 @@
         {
             "id": 1,
             "name": "Chocolate Cake",
+            "photo": "https://placehold.co/600x400?text=Chocolate+Cake",
             "version": "v1",
             "instructions": ["Preheat the oven", "Mix ingredients", "Bake for 30 minutes"],
             "ingredients": ["Chocolate", "Flour", "Sugar", "Eggs"],
@@ -11,6 +12,7 @@
           {
             "id": 2,
             "name": "Spaghetti Bolognese",
+            "photo": "https://placehold.co/600x400?text=Spaghetti+Bolognese",
             "version": "v1",
             "instructions": ["Boil water", "Cook pasta", "Prepare sauce", "Combine and serve"],
             "ingredients": ["Pasta", "Tomato sauce", "Ground beef", "Onion"],
@@ -19,6 +21,7 @@
           {
             "id": 3,
             "name": "Caprese Salad",
+            "photo": "https://placehold.co/600x400?text=Caprese+Salad",
             "version": "v1",
             "instructions": ["Slice tomatoes", "Layer with mozzarella", "Drizzle with balsamic"],
             "ingredients": ["Tomatoes", "Mozzarella", "Basil", "Balsamic"],
@@ -27,6 +30,7 @@
           {
             "id": 51,
             "name": "Blueberry Pancakes",
+            "photo": "https://placehold.co/600x400?text=Blueberry+Pancakes",
             "version": "v2",
             "ingredients": [
               { "quantity": 200, "unit": "g", "name": "Blueberries" },
@@ -39,6 +43,7 @@
           {
             "id": 52,
             "name": "Chicken Alfredo Pasta",
+            "photo": "https://placehold.co/600x400?text=Chicken+Alfredo+Pasta",
             "version": "v2",
             "ingredients": [
               { "quantity": 250, "unit": "g", "name": "Chicken breast" },
@@ -51,6 +56,7 @@
           {
             "id": 53,
             "name": "Avocado Toast",
+            "photo": "https://placehold.co/600x400?text=Avocado+Toast",
             "version": "v2",
             "ingredients": [
               { "quantity": 2, "unit": "unit",  "name": "Avocado" },
